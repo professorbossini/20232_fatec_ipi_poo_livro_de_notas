@@ -8,6 +8,10 @@ public class TesteLivroDeNotas{
     // livroDeNotas.nomeDisciplina = nomeDisciplina;
     //enviando a mensagem "exibirMensagem" ao objeto livroDeNotas
     livroDeNotas.exibirMensagem();
+    // livroDeNotas.nomeDisciplina = "Português";
+    System.out.println("A disciplina é " + livroDeNotas.getNomeDisciplina());
+    String nome = "ABC";
     System.out.println("Até logo");
+    livroDeNotas.setNomeDisciplina("Português");
   }
 }
